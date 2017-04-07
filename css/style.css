@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+  height: 100%;
+}
+body {
+	font-size: 16px;
+	min-width: 320px;
+	line-height: 1.6;
+    position: relative;
+	font-family: "HeliosExt", sans-serif;
+	background-image: url(../img/gradients/background.png),url(../img/gradients/background.png);
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    overflow-x: hidden;
+}
+        /*main-picture*/	
+.header-picture {
+	width: 1079px;
+    padding-left: 135px;
+    margin-top: -138px;
+    z-index: -2;
+    position: relative;
+}
+.russian,.english,
+.home,.email,.map {
+	position: relative; 
+	display: block;
+}
+.russian,.english {
+	top: -412px;
+    left: 131px;
+    padding: 4px;
+}
+.home,.email,.map {
+    top: -498px;
+    left: 1180px;
+    padding: 7px;
+}
+.search-text {
+	position: absolute;
+    top: 35px;
+    left: 678px;
+    font-family: 'HeliosExt-Bold','Tahoma';
+    color: #c4122f;
+    font-size: 10px;
+    font-weight: bold;
+}
+.search {
+	width: 200px;
+    height: 16px;
+    border: 1px solid #c3cfd6;
+    padding-left: -6px;
+    margin-left: 13px;
+}
+.arrow {
+	position: relative;
+    top: -476px;
+    left: 1000px;
+}
+      /*areva-left-image*/
+.areva {
+	padding: 35px 230px;
+	z-index: 2;
+}
+              /*NAVIGATION*/
+.grey-gradient {
+	position: relative;
+    bottom: 439px;
+    left: 135px;
+    z-index: -3;
+}    
+.navigation {
+	display: inline-block;
+    margin: -368px -112px;
+    position: absolute;
+    list-style-type: none;
+    background-color: #dde5e8;
+    z-index: -3;
+    padding: 12px;
+}
+.navigation li {
+	display: inline-block;
+    padding-left: 42px;
+    padding: -7px;
+} 
+.navigation li a {
+	text-decoration: none;
+    font-family: 'HeliosExt-Bold','Tahoma';
+    font-weight: bold;
+    font-size: 14px;
+    color: #d52a54;
+    cursor: pointer;
+}      
+      /*    FORM       */
+form {
+	position: absolute;
+    top: 388px;
+    left: 200px;
+}
+.field-login,.field-password {
+	font-family: 'HeliosExt-Bold','Tahoma';
+	font-size: 13px;
+	color: #758890;
+	padding: 5px;
+}
+.login,.password {
+	width: 90px;
+	height: 14px;
+}
+.exit a {
+	text-decoration: none;
+	font-family: 'HeliosExt-Bold','Tahoma';
+	font-size: 13px;
+	color: #758890;
+}
+.exit img {
+	padding: 1px 6px;
+}
+         /*   MAIN      */
+.main {
+	position: relative;
+	bottom: 887px;
+	left: 415px;
+}  
+.company-areva {
+	color: #d52a54;
+	border-bottom: 1px solid #c4122f;
+	width: 500px;
+}   
+h4 {
+	font-family: tahoma;
+	font-size: 12px;
+	line-height: 1.6;
+	margin-top: 7px;
+	color: #5d6f76;
+} 
+.main h4 a {
+	color: #c4122f;
+}  
+.main-news {
+	position: relative;
+	bottom: 1402px;
+    left: 991px;
+}
+.news {
+	color: #d52a54;
+	border-bottom: 1px solid #c4122f;
+	width: 205px;
+}
+.date {
+	color: #c4122f;
+    font-size: 11px;
+    display: inline-block;
+    background-color: #e5ebed;
+    margin-top: 36px;
+}
+.img-bottom {
+    position: absolute;
+    top: 970px;   
+    left: 411px;
+}
+.img-bottom img {
+	width: 240px;
+    padding: 8px;
+}
+       /*    FOOTER      */
+
+.foot {
+	position: absolute;
+	top: 1145px;
+}
+.line {
+	position: absolute;
+    left: 135px;
+    top: 8px;
+    height: 65px;
+}
+.areva-footer {
+	position: absolute;
+	left: 185px;
+	top: 13px;
+}
+.foot h5 {
+	font-family: tahoma;
+    font-size: 12px;
+    position: relative;
+    left: 300px;
+    top: 9px;
+    font-size: 11px;
+    color: #5d6f76;
+}
+.foot h5 a {
+	color: #c4122f;
+}
+.foot h6 {
+	margin: -39px 452px;
+	color: #c1ccd0;
+}
+.klarnet {
+	margin: 26px 903px;
+}
+
+         /*  FOOTER-NAVIGATION     */
+.footer-navigation {
+	display: inline-block;
+    position: relative;
+    list-style-type: none;
+    background-color: #dde5e8;    
+    left: 418px;
+    padding: 18px;
+    bottom: 59px;
+    border-left: 1px solid #c4122f;
+    padding: 19px;
+}
+.footer-navigation li {
+	display: inline-block;
+    margin-left: 21px;
+} 
+.footer-navigation li a {
+    text-decoration: none;
+    font-family: 'HeliosExt-Bold','Tahoma';    
+    font-size: 12px;
+    color: #5d6f76;
+    margin: 1px;
+}           

@@ -1,0 +1,29 @@
+
+
+@font-face {
+    font-family:'HeliosExt';
+    src: url('../font/HeliosExt.eot');
+	src: url('../font/HeliosExt.eot?#iefix') format('embedded-opentype'),
+		url('../font/HeliosExt.woff2') format('woff2'),
+		url('../font/HeliosExt.woff') format('woff'),
+		url('../font/HeliosExt.ttf') format('truetype'),
+		url('../font/HeliosExt.svg#HeliosExt') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BB;
+}
+
+@font-face {
+    font-family:'HeliosExt-Bold';
+    src: url('../font/HeliosExt-Bold.eot');
+	src: url('../font/HeliosExt-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/HeliosExt-Bold.woff2') format('woff2'),
+		url('../font/HeliosExt-Bold.woff') format('woff'),
+		url('../font/HeliosExt-Bold.ttf') format('truetype'),
+		url('../font/HeliosExt-Bold.svg#HeliosExt-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BB;
+}
